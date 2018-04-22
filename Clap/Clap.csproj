@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Shang.Clap</PackageId>
+	<Version>0.1.0</Version>
+	<Authors>stark.shang</Authors>
+	<Company>stark.shang</Company>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>

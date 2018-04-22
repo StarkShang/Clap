@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
 
 namespace Clap
 {
@@ -18,15 +20,15 @@ namespace Clap
         public bool IsCommand(Queue<string> args)
         {
             return CommandTable != null
-                && args.TryPeek(out var token)
-                && CommandTable.ContainsKey(token);
+                && args.Count > 0
+                && CommandTable.ContainsKey(args.Peek());
         }
 
         public bool IsOption(Queue<string> args)
         {
             return OptionTable != null
-                && args.TryPeek(out var token)
-                && OptionTable.ContainsKey(token);
+                && args.Count > 0
+                && OptionTable.ContainsKey(args.Peek());
         }
     }
 }

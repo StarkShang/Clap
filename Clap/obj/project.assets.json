@@ -181,10 +181,10 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "0.1.0",
     "restore": {
       "projectUniqueName": "/Users/stark/Documents/Projects/Clap/Clap/Clap.csproj",
-      "projectName": "Clap",
+      "projectName": "Shang.Clap",
       "projectPath": "/Users/stark/Documents/Projects/Clap/Clap/Clap.csproj",
       "packagesPath": "/Users/stark/.nuget/packages/",
       "outputPath": "/Users/stark/Documents/Projects/Clap/Clap/obj/",
